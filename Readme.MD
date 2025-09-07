@@ -74,10 +74,10 @@ Create a `.env` file inside the **backend** directory:
 
 ```env
 PORT=4000
-MONGODB_URL='mongodb+srv://auth:auth@cluster0.oa3apqx.mongodb.net'
+MONGODB_URL='mongodb_url'
 JWT_SECRET='secret'
 NODE_ENV='development'
-EMAIL_USER=skrsikop@gmail.com
+EMAIL_USER=example@example.com
 EMAIL_PASS=your-app-password
 ```
 
@@ -123,7 +123,7 @@ npm start
 
 App should now be running at:
 
-* **Frontend:** [http://localhost:3000](http://localhost:3000)
+* **Frontend:** [http://localhost:5173](http://localhost:5173)
 * **Backend:** [http://localhost:4000](http://localhost:4000)
 
 ---
@@ -156,7 +156,7 @@ This project is **open-source** and available for anyone to use, customize, and 
 
 ## ❤️ Contributing
 
-Pull requests are welcome! Please fork the repo and submit a PR.
+Pull requests are welcome! Please star and fork the repo and submit a PR.
 
 ---
 
